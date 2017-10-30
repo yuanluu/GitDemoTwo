@@ -13,6 +13,21 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "这添加Toast功能！", Toast.LENGTH_SHORT).show();
         showToastOne();
         showToastTwo();
+        showHelloWorldTwo();
+        showJavaWorld();
+        showJavaWorldTwo();
+    }
+
+    private void showJavaWorldTwo() {
+        Toast.makeText(this, "显示Java World Two！", Toast.LENGTH_SHORT).show();
+    }
+
+    private void showJavaWorld() {
+        Toast.makeText(this, "显示Java World！", Toast.LENGTH_SHORT).show();
+    }
+
+    private void showHelloWorldTwo() {
+        Toast.makeText(this, "显示Hello World！", Toast.LENGTH_SHORT).show();
     }
 
     private void showToastOne() {
