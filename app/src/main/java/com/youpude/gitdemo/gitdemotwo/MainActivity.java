@@ -16,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
         showHelloWorldTwo();
         showJavaWorld();
         showJavaWorldTwo();
+        testOne();
+    }
+
+    private void testOne() {
+
     }
 
     private void showJavaWorldTwo() {
