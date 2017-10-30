@@ -12,9 +12,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "这添加Toast功能！", Toast.LENGTH_SHORT).show();
         showToastOne();
+        showToastTwo();
     }
 
     private void showToastOne() {
         Toast.makeText(this, "这是第二次添加Toast功能！", Toast.LENGTH_SHORT).show();
+    }
+
+    private void showToastTwo() {
+        Toast.makeText(this, "这是第三次添加Toast功能！", Toast.LENGTH_SHORT).show();
     }
 }
